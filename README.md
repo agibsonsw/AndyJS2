@@ -1,4 +1,4 @@
-AndyJS (Previously AndyJS)
+AndyJS2 (Previously AndyJS)
 ======
 
 JS and jQuery completions ST2
@@ -11,5 +11,3 @@ If you only require one of these completions files then you can still install bo
 just delete the other file. (Be aware, though, that it may be re-installed on a future update.)
 However, if you are not using jQuery, then you do not need to delete the completions file, as 
 it will just be ignored.
-
-If you use both files, though, then the default (file) completions might display twice :)
