@@ -886,7 +886,10 @@ compAll = list(compJS)      # could use different lists
 class AndyJSCompletions(sublime_plugin.EventListener):
     def on_query_completions(self, view, prefix, locations):
         global compAll
-        if not view.match_selector(locations[0], 'source.js -string -comment -constant'):
+        if not (view.match_selector(locations[0],
+                                    'source.js -string -comment -constant') or
+                view.match_selector(locations[0],
+                                    'source.ts -string -comment -constant')):
             return []
         completions = []
         pt = locations[0] - len(prefix) - 1
