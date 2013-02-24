@@ -803,6 +803,7 @@ compJS = [
     ("emptyCells\tcss", "emptyCells"),
     ("font\tcss", "font"),
     ("fontFamily\tcss", "fontFamily"),
+    ("fontSize\tcss", "fontSize"),
     ("fontSizeAdjust\tcss", "fontSizeAdjust"),
     ("fontStretch\tcss", "fontStretch"),
     ("fontStyle\tcss", "fontStyle"),
